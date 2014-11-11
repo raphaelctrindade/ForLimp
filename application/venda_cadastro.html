@@ -14,7 +14,7 @@
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top nav-bg" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top nav-bg" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,7 +41,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="empresas.html">Clientes</a></li>
           <li><a href="fornecedores.html">Fornecedores</a></li>
-          <li class="active"><a href="produtos.html">Produtos</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
           <li><a href="compras.html">Registro de Compras</a></li>
           <li><a href="vendas.html">Registro de Vendas</a></li>
         </ul>
@@ -50,69 +50,47 @@
 
       <!-- CONTENT -->
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        <h1 class="page-header">Produtos</h1>
+        <h1 class="page-header">Nova Venda</h1>
 
-        <form role="form">
-          <div class="row">
-            <div class="col-md-3">
-              <a href="produto_cadastro.html" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Adicionar Produto
-              </a>
-            </div>
-            <div class="col-md-3">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Buscar produto">
-            </div>
-            <div class="col-md-1">
-              <button class="btn btn-warning">
-               <span class="glyphicon glyphicon-search"></span> Buscar
-             </button>
-           </div>
-         </div>
-       </form>
+       <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label class="col-sm-2 control-label">CNPJ</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="nome_venda">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Data</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="marca_venda">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Valor</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="fabricante_venda">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Fabricante</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="codigo_venda">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Código</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="codigo_venda">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-8">
+            <button type="submit" class="btn btn-success">Cadastrar</button>
+          </div>
+        </div>
+      </form>
 
-       <div class="mb-20"></div>
 
-       <!-- Table -->
-       <table class="table table-striped table-bordered">
-        <thead>
-          <tr>
-            <th>Código</th>
-            <th>Nome</th>
-            <th>Marca</th>
-            <th>Unidade</th>
-            <th>Fabricante</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>231</td>
-            <td>Esponja</td>
-            <td>Marca do produto</td>
-            <td>Unidade</td>
-            <td>Fabricante</td>
-          </tr>
-          <tr>
-            <td>231</td>
-            <td>Esponja</td>
-            <td>Marca do produto</td>
-            <td>Unidade</td>
-            <td>Fabricante</td>
-          </tr>
-          <tr>
-            <td>231</td>
-            <td>Esponja</td>
-            <td>Marca do produto</td>
-            <td>Unidade</td>
-            <td>Fabricante</td>
-          </tr>
-          <tr>
-            <td>231</td>
-            <td>Esponja</td>
-            <td>Marca do produto</td>
-            <td>Unidade</td>
-            <td>Fabricante</td>
-          </tr>
-        </tbody>
-      </table>
     </div>
     <!-- END CONTENT -->
   </div>

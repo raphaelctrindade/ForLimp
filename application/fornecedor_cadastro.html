@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>For Limp</title>
+  <title>For Limp - Empresas</title>
 
   <!-- Bootstrap -->
   <link href="../css/bootstrap.css" rel="stylesheet">
@@ -32,13 +32,13 @@
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-  
+
   <div class="container-fluid">
     <div class="row">
       <!-- SIDEBAR -->
       <div class="col-sm-3 col-md-2 sidebar">
         <ul class="nav nav-sidebar">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="empresas.html">Clientes</a></li>
           <li><a href="fornecedores.html">Fornecedores</a></li>
           <li><a href="produtos.html">Produtos</a></li>
@@ -50,19 +50,38 @@
 
       <!-- CONTENT -->
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        <h1 class="page-header">Home</h1>
+        <h1 class="page-header">Novo Fornecedor</h1>
+
+       <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Nome</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="nome_fornecedor">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Telefone</label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="marca_fornecedor">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-8">
+            <button type="submit" class="btn btn-success">Cadastrar</button>
+          </div>
+        </div>
+      </form>
 
 
-
-      </div>
-      <!-- END CONTENT -->
     </div>
+    <!-- END CONTENT -->
   </div>
-  
+</div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="../js/bootstrap.min.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
